@@ -1,0 +1,107 @@
+/* Start Carousel Style */
+
+main .home-carousel {
+  position: relative;
+}
+
+main .home-carousel .home-carousel_text {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  bottom: 0;
+  /* left: 25%; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* margin-top: -200px; */
+}
+main .home-carousel .home-carousel_text h2 {
+  font-family: AlfaSlabOne;
+  font-size: 86px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+main .home-carousel .home-carousel_text h2 span {
+  color: #fdb414;
+}
+
+main .home-carousel .home-carousel_text h6 {
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+main .home-carousel .home-carousel_text .home-carousel_slider-count {
+  height: 50px;
+  background-color: #fdb414;
+  margin: 0 auto;
+  width: 80%;
+}
+/* End Carousel Style */
+/* Start Equip Style */
+main .equip {
+  background-color: #f9f9fa;
+  padding-top: 70px;
+  padding-bottom: 104px;
+}
+main .equip h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #303b42;
+}
+
+main .equip .equip-list {
+  display: flex;
+  justify-content: center;
+}
+
+main .equip .equip-list .equip-container {
+  background-color: #fff;
+  padding: 12px;
+  margin: 10px;
+  max-width: 350px;
+}
+
+main .equip .equip-list .equip-container .equip-container-border {
+  border: solid 1px rgba(151, 151, 151, 0.17);
+  padding: 40px 20px;
+  height: 335px;
+  width: 325px;
+}
+
+main .equip .equip-list .equip-container .equip-container-border .equip-img {
+  height: 202px;
+  display: flex;
+  align-items: center;
+}
+main .equip .equip-list .equip-container .equip-container-border h6 {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303b42;
+  padding-top: 30px;
+}
+/* End Equip Style */
