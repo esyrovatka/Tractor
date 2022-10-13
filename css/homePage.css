@@ -105,3 +105,135 @@ main .equip .equip-list .equip-container .equip-container-border h6 {
   padding-top: 30px;
 }
 /* End Equip Style */
+
+/* Start Image Block Style */
+
+main .image-block {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9fa;
+}
+
+main .image-block .image {
+  flex: 1;
+  position: relative;
+}
+
+main .image-block .image .arrow {
+  position: absolute;
+  right: -2px;
+  /* left: 25%; */
+  top: 45%;
+}
+
+main .image-block .right-image {
+  flex: 1;
+  position: relative;
+}
+
+main .image-block .right-image .arrow {
+  position: absolute;
+  left: -2px;
+  /* left: 25%; */
+  top: 45%;
+}
+
+main .image-block .text {
+  flex: 1;
+}
+
+main .image-block .text .text-title_block {
+  display: flex;
+  font-weight: bold;
+  color: #303b42;
+  margin-left: 55px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-right: 60px;
+  border-bottom: solid 1px #e2e2e2;
+}
+main .image-block .text .text-title_block .icon {
+  padding-right: 25px;
+}
+main .image-block .text .text-title_block h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+main .image-block .text .text-title_block h3 {
+  margin: 0;
+  font-size: 30px;
+}
+
+main .image-block .text .text-block_info {
+  margin-left: 55px;
+  padding-top: 37px;
+  padding-bottom: 40px;
+  margin-right: 60px;
+  color: #303b42;
+}
+
+main .image-block .text .left-text {
+  padding-top: 80px;
+  margin: 0 60px;
+}
+
+main .image-block .text .left-text .left-text-title {
+  max-width: 567px;
+  padding-bottom: 12px;
+}
+
+main .image-block .text .left-text .left-text-title h4 {
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #303b42;
+  max-width: 567px;
+}
+
+main .image-block .text .left-text .left-text-title span {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #303b42;
+  max-width: 567px;
+}
+
+main .image-block .text .left-text .icons-list {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  height: 80px;
+}
+
+main .image-block .text .left-text .icons-list .icon {
+  flex: 1;
+  margin-right: 40px;
+  border-bottom: solid 1px #e2e2e2;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+main .image-block .text .left-text .icons-list .icon img {
+  padding-right: 35px;
+  /* width: 80px; */
+  height: 40px;
+}
+
+main .image-block .text .left-text .icons-list .icon span {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303b42;
+}
+/* End Image Block Style */
