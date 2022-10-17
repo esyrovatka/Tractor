@@ -1,0 +1,44 @@
+main {
+  .contact_page {
+    background-color: #f9f9fa;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+    p {
+      font-size: 18px;
+      line-height: 1.44;
+      color: #242424;
+    }
+
+    .contact-form {
+      background-color: #fff;
+      padding-top: 55px;
+      padding-bottom: 70px;
+      text-align: center;
+
+      .contact-form-group {
+        text-align: left;
+
+        display: flex;
+        padding: 0px 30px 30px 30px;
+
+        .contact-form-field {
+          flex: 1;
+          padding: 0px 30px;
+
+          textarea {
+            min-height: 155px;
+          }
+        }
+      }
+      .contact_submit_btn {
+        border-radius: 4px;
+        background-color: #303b42;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        padding: 18px 43px 18px 42px;
+      }
+    }
+  }
+}
