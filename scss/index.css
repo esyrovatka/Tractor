@@ -254,4 +254,156 @@ main .products_page .right_col .product .product-price .sku {
   color: #c5cace;
 }
 
+main .breadcrumbs {
+  font-size: 16px;
+  color: #333;
+  border: solid 1px #e5e5e5;
+  padding: 20px 40px;
+}
+main .product_page {
+  background-color: #f9f9fa;
+  display: flex;
+  padding: 40px;
+  padding-bottom: 100px;
+}
+main .product_page .left_col {
+  height: 100%;
+  margin-right: 40px;
+}
+main .product_page .left_col .product_description {
+  display: flex;
+  padding: 40px;
+  background-color: #fff;
+}
+main .product_page .left_col .product_description .image-slider {
+  padding-right: 40px;
+}
+main .product_page .left_col .product_description .image-slider .image-slider-main {
+  padding-bottom: 90px;
+  border-bottom: solid 1px #e5e5e5;
+}
+main .product_page .left_col .product_description .image-slider .image-slider-gallery {
+  padding-top: 15px;
+}
+main .product_page .left_col .product_description .image-slider .image-slider-gallery img {
+  margin-right: 10px;
+}
+main .product_page .left_col .product_description .product-description h6 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+main .product_page .left_col .product_description .product-description span {
+  font-size: 18px;
+  line-height: 1.44;
+  color: #333;
+}
+main .product_page .left_col .product_description .product-description .fits {
+  padding-top: 25px;
+}
+main .product_page .left_col .product_specifications {
+  margin-top: 30px;
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+}
+main .product_page .left_col .product_specifications .tabs_title {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px #e5e5e5;
+}
+main .product_page .left_col .product_specifications .tabs_title span {
+  padding: 17px;
+}
+main .product_page .left_col .product_specifications .tabs_title .active {
+  border-bottom: solid 3px #fdb414;
+}
+main .product_page .left_col .product_specifications .product_specifications_content {
+  padding: 40px 50px;
+}
+main .product_page .product_price {
+  width: 30%;
+  height: 100%;
+}
+main .product_page .product_price .product_price_top {
+  background-color: #fff;
+  padding: 30px;
+  border: solid 1px #e5e5e5;
+}
+main .product_page .product_price .product_price_top h6 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+main .product_page .product_price .product_price_top .product_info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #333;
+  padding: 10px 0;
+}
+main .product_page .product_price .product_price_top .product_info .product_info_name {
+  font-weight: bold;
+}
+main .product_page .product_price .product_price_top .border_bt {
+  border-bottom: solid 1px #e5e5e5;
+}
+main .product_page .product_price .product_price_top .product_info_btn {
+  border-radius: 4px;
+  border: solid 1px #303b42;
+  background-color: #fff;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #303b42;
+  padding: 15px 0;
+  min-width: 280px;
+  margin-top: 10px;
+}
+main .product_page .product_price .product_price_bottom {
+  border: solid 1px #e5e5e5;
+  background-color: #fff;
+  border-top: none;
+  padding: 15px 20px;
+  color: #fff;
+}
+main .product_page .product_price .product_price_bottom span {
+  padding: 3px 6px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+main .product_page .product_price .product_price_bottom .like {
+  background-color: #4266b2;
+}
+main .product_page .product_price .product_price_bottom .tweet {
+  background-color: #2d95e0;
+}
+main .product_page .product_price .product_price_bottom .pinIt {
+  background-color: #e74439;
+}
+main .product_page .product_price .cant-find {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  padding: 32px;
+  margin-top: 30px;
+}
+main .product_page .product_price .cant-find h6 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center;
+  color: #333;
+  padding: 15px 0;
+}
+main .product_page .product_price .cant-find p {
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #333;
+}
+
 /*# sourceMappingURL=index.css.map */
