@@ -1,4 +1,16 @@
+@import "all.scss";
+
+@import "pages/products.scss";
+@import "pages/product.scss";
+@import "pages/contact.scss";
+@import "pages/home.scss";
+
 @import "image-title.scss";
-@import "products.scss";
-@import "product.scss";
-@import "contact.scss";
+
+@import "footer/footer-promo.scss";
+@import "footer/newsletter.scss";
+@import "footer/footer-info.scss";
+@import "footer/under-footer.scss";
+
+@import "header/top-header.scss";
+@import "header/header.scss";

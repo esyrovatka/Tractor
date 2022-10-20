@@ -1,0 +1,138 @@
+footer {
+  .promo {
+    background-color: #edeff0;
+    padding: 40px 60px;
+    .promo-inside {
+      display: flex;
+      align-items: center;
+      border: solid 10px #fff;
+      justify-content: space-around;
+
+      .left-col {
+        display: flex;
+        padding: 40px 50px 75px 140px;
+      }
+
+      .right-col {
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        color: #242424;
+        display: flex;
+        // justify-content: center;
+        width: 690px;
+        height: 450px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+
+        // img {
+        //   width: 690px;
+        //   height: auto;
+        //   margin-top: -150px;
+        //   margin-left: -180px;
+        //   margin-bottom: -20px;
+        // }
+
+        ul {
+          padding-top: 100px;
+        }
+      }
+    }
+  }
+
+  .footer-option {
+    height: 85px;
+    width: 100%;
+    background-color: #fdb414;
+  }
+  @media (max-width: 1440px) {
+    .promo {
+      .promo-inside {
+        .left-col {
+          padding: 40px 20px 75px 60px;
+        }
+        .right-col {
+          font-size: 16px;
+          img {
+            width: 450px;
+            height: auto;
+            margin-bottom: -110px;
+          }
+
+          // ul {
+          //   padding-top: 0px;
+          // }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .promo {
+      .promo-inside {
+        .arrow {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 920px) {
+    .promo {
+      .promo-inside {
+        flex-direction: column;
+
+        .left-col {
+          padding: 20px 0 10px;
+        }
+
+        .right-col {
+          height: 350px;
+
+          ul {
+            padding-top: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .promo {
+      padding: 0;
+      .promo-inside {
+        border: none;
+        .left-col {
+          img {
+            width: 140px;
+            height: 150px;
+          }
+        }
+
+        .right-col {
+          width: 100%;
+          margin: 0;
+          padding-left: 100px;
+
+          img {
+            margin-left: -120px;
+            margin-top: -80px;
+            width: 350px;
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 520px) {
+    .promo {
+      .promo-inside {
+        .right-col {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
