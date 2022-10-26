@@ -14,7 +14,10 @@
       display: flex;
       padding: 20px;
 
-      span {
+      span,
+      button {
+        background-color: #303b42;
+        border: none;
         font-size: 13px;
         font-weight: bold;
         color: #fff;
@@ -40,9 +43,60 @@
     //   display: none;
     // }
   }
-  //   @media (max-width: 670px) {
-  //     justify-content: center;
-  //   }
+
+  .modal {
+    color: #000;
+
+    .modal-dialog {
+      .modal-content {
+        background-color: #f9f9fa;
+
+        .modal-header {
+          .modal-title {
+            display: flex;
+            align-items: center;
+            img {
+              font-size: 28px;
+              height: 28px;
+              width: 28px;
+            }
+
+            span {
+              font-size: 30px;
+              font-weight: bold;
+              color: #333;
+              padding-left: 10px;
+            }
+          }
+        }
+        .modal-body {
+          .locations-list {
+            background-color: #fff;
+            border: 1px solid #efefef;
+
+            .location {
+              padding: 20px 40px;
+              display: flex;
+              border-bottom: 1px solid #efefef;
+
+              span {
+                flex: 1;
+                font-size: 16px;
+                font-weight: normal;
+                color: #333;
+              }
+            }
+
+            .title-location {
+              span {
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 670px) {

@@ -510,10 +510,12 @@ main .image-block .image {
   flex: 1;
   position: relative;
 }
-main .image-block .image .arrow {
+main .image-block .image::after {
+  content: url("../img/left-arrow.svg");
+  width: 30px;
+  height: 60px;
   position: absolute;
   right: -2px;
-  /* left: 25%; */
   top: 45%;
 }
 main .image-block .right-image {
@@ -523,10 +525,12 @@ main .image-block .right-image {
 main .image-block .right-image img {
   max-height: 600px;
 }
-main .image-block .right-image .arrow {
+main .image-block .right-image::after {
+  content: url("../img/right-arrow.svg");
+  width: 30px;
+  height: 60px;
   position: absolute;
   left: -2px;
-  /* left: 25%; */
   top: 45%;
 }
 main .image-block .text {
@@ -716,11 +720,11 @@ main .settings_icons .settings-container .settings-inside .title {
   main .image-block .text .left-text .icons-list .icon span {
     font-size: 16px;
   }
-  main .image-block .image .arrow {
-    display: none;
+  main .image-block .image::after {
+    content: "";
   }
-  main .image-block .right-image .arrow {
-    display: none;
+  main .image-block .right-image::after {
+    content: "";
   }
   main .settings_icons {
     flex-direction: column;
@@ -1247,7 +1251,10 @@ footer .footer-option {
   display: flex;
   padding: 20px;
 }
-.top_header .link_group .link span {
+.top_header .link_group .link span,
+.top_header .link_group .link button {
+  background-color: #303b42;
+  border: none;
   font-size: 13px;
   font-weight: bold;
   color: #fff;
@@ -1261,6 +1268,45 @@ footer .footer-option {
 }
 .top_header .social_link_group img {
   padding: 0 10px;
+}
+.top_header .modal {
+  color: #000;
+}
+.top_header .modal .modal-dialog .modal-content {
+  background-color: #f9f9fa;
+}
+.top_header .modal .modal-dialog .modal-content .modal-header .modal-title {
+  display: flex;
+  align-items: center;
+}
+.top_header .modal .modal-dialog .modal-content .modal-header .modal-title img {
+  font-size: 28px;
+  height: 28px;
+  width: 28px;
+}
+.top_header .modal .modal-dialog .modal-content .modal-header .modal-title span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 10px;
+}
+.top_header .modal .modal-dialog .modal-content .modal-body .locations-list {
+  background-color: #fff;
+  border: 1px solid #efefef;
+}
+.top_header .modal .modal-dialog .modal-content .modal-body .locations-list .location {
+  padding: 20px 40px;
+  display: flex;
+  border-bottom: 1px solid #efefef;
+}
+.top_header .modal .modal-dialog .modal-content .modal-body .locations-list .location span {
+  flex: 1;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+}
+.top_header .modal .modal-dialog .modal-content .modal-body .locations-list .title-location span {
+  font-weight: bold;
 }
 
 @media (max-width: 670px) {

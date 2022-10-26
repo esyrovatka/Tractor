@@ -99,13 +99,16 @@ main {
       flex: 1;
       position: relative;
 
-      .arrow {
+      &::after {
+        content: url("../img/left-arrow.svg");
+        width: 30px;
+        height: 60px;
         position: absolute;
         right: -2px;
-        /* left: 25%; */
         top: 45%;
       }
     }
+
     .right-image {
       flex: 1;
       position: relative;
@@ -113,10 +116,12 @@ main {
       img {
         max-height: 600px;
       }
-      .arrow {
+      &::after {
+        content: url("../img/right-arrow.svg");
+        width: 30px;
+        height: 60px;
         position: absolute;
         left: -2px;
-        /* left: 25%; */
         top: 45%;
       }
     }
@@ -359,13 +364,13 @@ main {
       }
 
       .image {
-        .arrow {
-          display: none;
+        &::after {
+          content: "";
         }
       }
       .right-image {
-        .arrow {
-          display: none;
+        &::after {
+          content: "";
         }
       }
     }

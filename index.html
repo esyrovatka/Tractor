@@ -26,10 +26,103 @@
     ></script>
 
     <div class="top_header">
+      <!-- Start Call Us Modal -->
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <img alt="phone_icon" src="img/phone-icon.svg" />
+                <span> Call Us </span>
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="locations-list">
+                <div class="location title-location">
+                  <span>Location</span>
+                  <span>Phone Number</span>
+                </div>
+
+                <div class="location">
+                  <span>Bowling Green, KY</span>
+                  <span>270-842-3400</span>
+                </div>
+
+                <div class="location">
+                  <span>Chattanooga, TN</span>
+                  <span>423-855-0633</span>
+                </div>
+
+                <div class="location">
+                  <span>Georgetown, KY</span>
+                  <span>502-863-2529</span>
+                </div>
+
+                <div class="location">
+                  <span>Harlan, KY</span>
+                  <span>606-573-2454</span>
+                </div>
+
+                <div class="location">
+                  <span>Hazard, KY</span>
+                  <span>606-487-0115</span>
+                </div>
+
+                <div class="location">
+                  <span>Kingsport, TN</span>
+                  <span>423-349-5001</span>
+                </div>
+
+                <div class="location">
+                  <span>Knoxville, TN</span>
+                  <span>865-546-3207</span>
+                </div>
+
+                <div class="location">
+                  <span>Nashville, TN</span>
+                  <span>615-501-8600</span>
+                </div>
+
+                <div class="location">
+                  <span>London, KY</span>
+                  <span>606-862-8447</span>
+                </div>
+
+                <div class="location">
+                  <span>Louisville, KY</span>
+                  <span>502-253-3721</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EndCall Us Modal -->
       <div class="link_group">
         <div class="link">
           <img alt="phone_icon" src="img/phone-icon.svg" />
-          <span>Call Us</span>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Call Us
+          </button>
         </div>
 
         <div class="link">
@@ -199,7 +292,6 @@
       <div class="image-block">
         <div class="image">
           <img alt="image-block" src="img/image-block_1.png" width="100%" />
-          <img alt="image-block-left" class="arrow" src="img/left-arrow.svg" />
         </div>
 
         <div class="text">
@@ -329,11 +421,6 @@
 
         <div class="right-image">
           <img alt="image-block" src="img/image-block_2.png" width="100%" />
-          <img
-            alt="image-block-right"
-            class="arrow"
-            src="img/right-arrow.svg"
-          />
         </div>
       </div>
 
