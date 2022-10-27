@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Lato";
+  font-family: Lato;
+  src: local(Lato-Regular), url(../fonts/4118-font.ttf);
+  font-weight: normal;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Lato"), url("/fonts/Lato/Lato-Regular.ttf") format("ttf");
+  font-stretch: normal;
 }
 
 html,
 body,
 main {
-  font-family: "Lato";
+  font-family: Lato;
 }

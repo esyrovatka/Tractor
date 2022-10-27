@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Lato";
+  font-family: Lato;
+  src: local(Lato-Regular), url(../fonts/4118-font.ttf);
+  font-weight: normal;
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Lato"), url("/fonts/Lato/Lato-Regular.ttf") format("ttf");
+  font-stretch: normal;
 }
 html,
 body,
 main {
-  font-family: "Lato";
+  font-family: Lato;
 }
 
 main .products_page {
@@ -982,13 +982,14 @@ footer .promo .promo-inside {
   display: flex;
   align-items: center;
   border: solid 10px #fff;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 footer .promo .promo-inside .left-col {
   display: flex;
   padding: 40px 50px 75px 140px;
 }
 footer .promo .promo-inside .right-col {
+  max-width: 500px;
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: -0.1px;
@@ -1073,7 +1074,7 @@ footer .footer-option {
   padding: 10px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
   margin-bottom: 60px;
-  margin-top: -170px;
+  margin-top: -220px;
   background-color: #fff;
   position: relative;
 }
@@ -1127,6 +1128,9 @@ footer .footer-option {
   }
 }
 @media (max-width: 768px) {
+  .newsletter-container .newsletter {
+    margin-top: -170px;
+  }
   .newsletter-container .newsletter .newsletter--inside {
     text-align: center;
   }

@@ -6,7 +6,7 @@ footer {
       display: flex;
       align-items: center;
       border: solid 10px #fff;
-      justify-content: space-around;
+      justify-content: space-evenly;
 
       .left-col {
         display: flex;
@@ -14,25 +14,18 @@ footer {
       }
 
       .right-col {
+        max-width: 500px;
         font-size: 22px;
         line-height: 1.5;
         letter-spacing: -0.1px;
         color: #242424;
         display: flex;
-        // justify-content: center;
         width: 690px;
         height: 450px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right;
-
-        // img {
-        //   width: 690px;
-        //   height: auto;
-        //   margin-top: -150px;
-        //   margin-left: -180px;
-        //   margin-bottom: -20px;
-        // }
+        // margin: 0 20px;
 
         ul {
           padding-top: 100px;
