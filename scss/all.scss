@@ -11,3 +11,9 @@ body,
 main {
   font-family: Lato;
 }
+
+html {
+  .container {
+    max-width: 1070px;
+  }
+}
