@@ -426,6 +426,20 @@ main .contact_page .contact-form .contact_submit_btn {
   color: #fff;
   padding: 18px 43px 18px 42px;
 }
+@media (max-width: 768px) {
+  main .contact_page {
+    padding: 10px 0;
+  }
+  main .contact_page .contact-form {
+    padding: 20px 0;
+  }
+  main .contact_page .contact-form .contact-form-group {
+    flex-direction: column;
+  }
+  main .contact_page .contact-form .contact-form-group .contact-form-field {
+    padding: 20px 10px;
+  }
+}
 
 @font-face {
   font-family: "AlfaSlabOne";

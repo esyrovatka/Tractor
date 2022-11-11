@@ -18,7 +18,6 @@ main {
 
       .contact-form-group {
         text-align: left;
-
         display: flex;
         padding: 0px 30px 30px 30px;
 
@@ -38,6 +37,21 @@ main {
         font-weight: bold;
         color: #fff;
         padding: 18px 43px 18px 42px;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .contact_page {
+      padding: 10px 0;
+      .contact-form {
+        padding: 20px 0;
+        .contact-form-group {
+          flex-direction: column;
+
+          .contact-form-field {
+            padding: 20px 10px;
+          }
+        }
       }
     }
   }
