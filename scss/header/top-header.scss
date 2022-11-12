@@ -1,3 +1,4 @@
+@import "../variables.scss";
 .top_header {
   background-color: #303b42;
   display: flex;
@@ -12,22 +13,14 @@
 
     .link {
       display: flex;
-      padding: 20px;
-
+      padding: 13px;
       span,
       button {
-        background-color: #303b42;
+        background-color: $text_color;
         border: none;
-        font-size: 13px;
-        font-weight: bold;
-        color: #fff;
-        text-transform: uppercase;
         padding-left: 6px;
       }
     }
-    // @media (max-width: 670px) {
-    //   padding-right: 0px;
-    // }
   }
 
   .social_link_group {
@@ -105,12 +98,6 @@
 
     .link_group {
       padding-right: 0px;
-
-      .link {
-        span {
-          font-size: 12px;
-        }
-      }
     }
     .social_link_group {
       display: none;
