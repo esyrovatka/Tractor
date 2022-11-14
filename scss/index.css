@@ -516,53 +516,47 @@ main .product_page .product_price .cant-find p {
   color: #333;
 }
 
-main .contact_page {
+.contact_page {
   background-color: #f9f9fa;
   padding-top: 50px;
   padding-bottom: 80px;
 }
-main .contact_page p {
-  font-size: 18px;
-  line-height: 1.44;
-  color: #242424;
-}
-main .contact_page .contact-form {
+.contact_page .contact-form {
   background-color: #fff;
   padding-top: 55px;
   padding-bottom: 70px;
   text-align: center;
 }
-main .contact_page .contact-form .contact-form-group {
+.contact_page .contact-form .contact-form-group {
   text-align: left;
   display: flex;
   padding: 0px 30px 30px 30px;
 }
-main .contact_page .contact-form .contact-form-group .contact-form-field {
+.contact_page .contact-form .contact-form-group .contact-form-field {
   flex: 1;
   padding: 0px 30px;
 }
-main .contact_page .contact-form .contact-form-group .contact-form-field textarea {
+.contact_page .contact-form .contact-form-group .contact-form-field textarea {
   min-height: 155px;
 }
-main .contact_page .contact-form .contact_submit_btn {
+.contact_page .contact-form .contact_submit_btn {
   border-radius: 4px;
   background-color: #303b42;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
   padding: 18px 43px 18px 42px;
+  color: #fff;
 }
 @media (max-width: 768px) {
-  main .contact_page {
+  .contact_page {
     padding: 10px 0;
   }
-  main .contact_page .contact-form {
+  .contact_page .contact-form {
     padding: 20px 0;
   }
-  main .contact_page .contact-form .contact-form-group {
+  .contact_page .contact-form .contact-form-group {
     flex-direction: column;
+    padding: 0;
   }
-  main .contact_page .contact-form .contact-form-group .contact-form-field {
+  .contact_page .contact-form .contact-form-group .contact-form-field {
     padding: 20px 10px;
   }
 }
