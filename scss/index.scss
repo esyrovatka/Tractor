@@ -83,6 +83,13 @@ body {
     }
   }
 
+  .s38 {
+    font-size: 38px;
+    @media (max-width: 1024px) {
+      font-size: 28px;
+    }
+  }
+
   .text {
     font-family: "Lato";
     font-weight: normal;

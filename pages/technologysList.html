@@ -26,21 +26,114 @@
     ></script>
 
     <div class="top_header">
+      <!-- Start Call Us Modal -->
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <img alt="phone_icon" src="../img/phone-icon.svg" />
+                <span> Call Us </span>
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="locations-list">
+                <div class="location title-location">
+                  <span>Location</span>
+                  <span>Phone Number</span>
+                </div>
+
+                <div class="location">
+                  <span>Bowling Green, KY</span>
+                  <span>270-842-3400</span>
+                </div>
+
+                <div class="location">
+                  <span>Chattanooga, TN</span>
+                  <span>423-855-0633</span>
+                </div>
+
+                <div class="location">
+                  <span>Georgetown, KY</span>
+                  <span>502-863-2529</span>
+                </div>
+
+                <div class="location">
+                  <span>Harlan, KY</span>
+                  <span>606-573-2454</span>
+                </div>
+
+                <div class="location">
+                  <span>Hazard, KY</span>
+                  <span>606-487-0115</span>
+                </div>
+
+                <div class="location">
+                  <span>Kingsport, TN</span>
+                  <span>423-349-5001</span>
+                </div>
+
+                <div class="location">
+                  <span>Knoxville, TN</span>
+                  <span>865-546-3207</span>
+                </div>
+
+                <div class="location">
+                  <span>Nashville, TN</span>
+                  <span>615-501-8600</span>
+                </div>
+
+                <div class="location">
+                  <span>London, KY</span>
+                  <span>606-862-8447</span>
+                </div>
+
+                <div class="location">
+                  <span>Louisville, KY</span>
+                  <span>502-253-3721</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EndCall Us Modal -->
       <div class="link_group">
         <div class="link">
           <img alt="phone_icon" src="../img/phone-icon.svg" />
-          <span>Call Us</span>
+          <button
+            type="button"
+            class="text white s13"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Call Us
+          </button>
         </div>
 
         <div class="link">
           <img alt="email_icon" src="../img/email-icon.svg" />
 
-          <span>Email Us</span>
+          <span class="text white s13">Email Us</span>
         </div>
 
         <div class="link">
           <img alt="location_icon" src="../img/location-icon.svg" />
-          <span>Locations</span>
+          <span class="text white s13">Locations</span>
         </div>
       </div>
 
@@ -60,7 +153,7 @@
       <div class="links">
         <div class="dropdown">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle text s15"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
@@ -69,30 +162,42 @@
             New Equipment
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Used Equipment</a></li>
             <li>
-              <a class="dropdown-item" href="#">Rentals Parts & Service</a>
+              <a class="dropdown-item text s15" href="#">Used Equipment</a>
+            </li>
+            <li>
+              <a class="dropdown-item text s15" href="#"
+                >Rentals Parts & Service</a
+              >
             </li>
 
-            <li><a class="dropdown-item" href="#">Technology</a></li>
+            <li><a class="dropdown-item text s15" href="#">Technology</a></li>
           </ul>
         </div>
 
         <div class="dropdown">
-          <button class="btn btn-secondary" type="button" aria-expanded="false">
+          <button
+            class="btn btn-secondary text s15"
+            type="button"
+            aria-expanded="false"
+          >
             Used Equipment
           </button>
         </div>
 
         <div class="dropdown">
-          <button class="btn btn-secondary" type="button" aria-expanded="false">
+          <button
+            class="btn btn-secondary text s15"
+            type="button"
+            aria-expanded="false"
+          >
             Rentals
           </button>
         </div>
 
         <div class="dropdown">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle text s15"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
@@ -101,23 +206,33 @@
             Parts & Service
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">My Meade Tractor</a></li>
             <li>
-              <a class="dropdown-item" href="#">Buy Parts Online</a>
+              <a class="dropdown-item text s15" href="#">My Meade Tractor</a>
+            </li>
+            <li>
+              <a class="dropdown-item text s15" href="#">Buy Parts Online</a>
             </li>
 
-            <li><a class="dropdown-item" href="#">Request Service</a></li>
-            <li><a class="dropdown-item" href="#">Service Specials</a></li>
-            <li><a class="dropdown-item" href="#">Part Specials</a></li>
             <li>
-              <a class="dropdown-item" href="#">PowerGard Protection Plan</a>
+              <a class="dropdown-item text s15" href="#">Request Service</a>
+            </li>
+            <li>
+              <a class="dropdown-item text s15" href="#">Service Specials</a>
+            </li>
+            <li>
+              <a class="dropdown-item text s15" href="#">Part Specials</a>
+            </li>
+            <li>
+              <a class="dropdown-item text s15" href="#"
+                >PowerGard Protection Plan</a
+              >
             </li>
           </ul>
         </div>
 
         <div class="dropdown">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle text s15"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
@@ -126,23 +241,31 @@
             Technology
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">JDLink ™</a></li>
+            <li><a class="dropdown-item texts15" href="#">JDLink ™</a></li>
             <li>
-              <a class="dropdown-item" href="#">Grade Management</a>
+              <a class="dropdown-item texts15" href="#">Grade Management</a>
             </li>
 
-            <li><a class="dropdown-item" href="#">Payload Weighing</a></li>
             <li>
-              <a class="dropdown-item" href="#"
+              <a class="dropdown-item texts15" href="#">Payload Weighing</a>
+            </li>
+            <li>
+              <a class="dropdown-item texts15" href="#"
                 >Remote Diagnostics & Programming</a
               >
             </li>
-            <li><a class="dropdown-item" href="#">Machine Health</a></li>
             <li>
-              <a class="dropdown-item" href="#">Mixed Fleet Data Solutions</a>
+              <a class="dropdown-item text s15" href="#">Machine Health</a>
             </li>
-            <li><a class="dropdown-item" href="#">Connected Support</a></li>
-            <li><a class="dropdown-item" href="#">Topcon</a></li>
+            <li>
+              <a class="dropdown-item text s15" href="#"
+                >Mixed Fleet Data Solutions</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text s15" href="#">Connected Support</a>
+            </li>
+            <li><a class="dropdown-item text s15" href="#">Topcon</a></li>
           </ul>
         </div>
 
@@ -155,29 +278,25 @@
     </header>
 
     <main>
-      <div>
-        <div class="image--title">
-          <div
-            class="image--title_big--image"
-            style="background-image: url(../img/technology-title.png)"
-          ></div>
-          <div class="image--title_rectangle"></div>
+      <div
+        class="image--title_big--image"
+        style="background-image: url(../img/technology-title.png)"
+      ></div>
+      <div class="image--title_rectangle"></div>
+
+      <div class="container image--title_container">
+        <div class="image--title_title">
+          <h2 class="title-block s38 center">Technology</h2>
+          <p class="text s18 white center">
+            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a
+            pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </p>
         </div>
 
-        <div class="container image--title_container">
-          <div class="image--title_title">
-            <h2>Technology</h2>
-            <p>
-              Sed posuere consectetur est at lobortis. Nulla vitae elit libero,
-              a pharetra augue. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit.
-            </p>
-          </div>
-
-          <div class="image--title_breadcrumbs">Home / Technology</div>
-        </div>
+        <div class="image--title_breadcrumbs text s16">Home / Technology</div>
       </div>
-      <div class="technologys_list-page">
+      <!-- <div class="technologys_list-page">
         <div class="container">
           <h3>Worksite Precision Technology</h3>
           <p>
@@ -253,7 +372,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
 
     <footer>

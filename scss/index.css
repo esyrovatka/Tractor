@@ -84,6 +84,14 @@ body .s36 {
     font-size: 13px;
   }
 }
+body .s38 {
+  font-size: 38px;
+}
+@media (max-width: 1024px) {
+  body .s38 {
+    font-size: 28px;
+  }
+}
 body .text {
   font-family: "Lato";
   font-weight: normal;
@@ -1155,37 +1163,40 @@ main .settings_icons .settings-container .settings-inside .title {
   }
 }
 
-main .image--title .image--title_big--image {
-  width: 100%;
+.image--title_big--image {
   height: 369px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-main .image--title_rectangle {
+@media (max-width: 768px) {
+  .image--title_big--image {
+    height: 200px;
+  }
+}
+
+.image--title_rectangle {
   height: 45px;
   background-color: #fdb414;
 }
-main .image--title_container {
+
+.image--title_container {
   margin-top: -120px;
 }
-main .image--title_container .image--title_title {
+.image--title_container .image--title_title {
   padding: 36px 10% 24px 10%;
   background-color: #303b42;
 }
-main .image--title_container .image--title_title h2 {
-  font-size: 38px;
-  font-weight: bold;
-  text-align: center;
+@media (max-width: 768px) {
+  .image--title_container .image--title_title {
+    padding: 15px;
+  }
+}
+.image--title_container .image--title_title h2 {
   color: #fdb414;
 }
-main .image--title_container .image--title_title p {
-  font-size: 18px;
-  line-height: 1.33;
-  text-align: center;
-  color: #fff;
-}
-main .image--title_container .image--title_breadcrumbs {
-  padding: 15px 0 20px;
+.image--title_container .image--title_breadcrumbs {
+  padding: 15px 0 20px 0;
 }
 
 footer .promo {
